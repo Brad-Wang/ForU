@@ -1,0 +1,329 @@
+/**
+ ************通用样式开始************
+ */
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "Hiragino Sans GB","微软雅黑","黑体","sans-serif";
+}
+li{
+	list-style: none;
+}
+a{
+	color: #A79384; 
+	text-decoration:none;
+}
+button{
+	background: none;
+	border: none;
+	cursor: pointer;
+	outline: none;
+}
+img{
+	border: none;
+}
+button{
+	padding: 3px 16px;
+	border: 1px solid #FF5A5E;
+	border-radius: 12px;
+}
+/**
+ ************通用样式结束************
+ */
+
+/**
+ ************a-header开始************
+ */
+#a-header{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	color: #FFF;
+	border-bottom: 2px solid #FE595D;
+	border-top: none;
+	position: fixed;
+	top: 0;
+	background: #fff;
+	z-index: 99;
+}
+#a-header .logo{
+	display: block;
+	float: left;
+}
+#a-header .logo img{
+	height: 35px;
+	margin-top: 7px;
+	margin-left: 7px;
+}
+#a-header .option{
+	float: right;
+	margin-right: 7px;
+}
+#a-header .option a{
+	font-size: 11px;
+}
+#a-header .option .link-jump{
+	margin-right: 20px;
+}
+#a-header .option .link-jump span{
+	color: black;
+	margin: 0 10px;
+}
+#a-header .option .user a{
+	margin-right: 10px;
+}
+#a-header .option .user button{
+	color: #FF5A5E;
+}
+/**
+ ************a-header结束************
+ */
+
+/**
+ ************a-panel开始************
+ */
+#a-panel{
+	width: 100%;
+	height: 145px;
+	background: #FBF6ED;
+	position: fixed;
+	top: 52px;
+	z-index: 99;
+}
+#a-panel .container{
+	height: 100%;
+	width: 990px;
+	margin: 0 auto;
+}
+#a-panel .container img{
+	width: 80px;
+	display: block;
+	float: left;
+	padding: 1px;
+	margin-top: 30px;
+	margin-right: 15px;
+	border: 1px solid #ccc;
+	border-radius: 100%;
+}
+#a-panel .container span{
+	display: block;
+	float: left;
+	margin-top: 56px;
+	font-size: 24px;
+	color: #ff807a;
+}
+#a-panel .container .btn{
+	float: right;
+}
+#a-panel .container .btn button{
+	float: right;
+	margin-top: 52px;
+	font-size: 24px;
+	border-radius: 20px;
+}
+#a-panel .container .btn .look{
+	margin-right: 10px;
+	color: #FF8786;
+}
+#a-panel .container .btn .save{
+	color: white;
+	background: #FF8786;
+}
+/**
+ ************a-panel结束************
+ */
+
+/**
+ * ***********content-form开始************
+ */
+#a-content-form{
+	width: 100%;
+	margin-top: 200px;
+}
+#a-content-form .container{
+	width: 990px;
+	margin: 0 auto;
+}
+#a-content-form .container .nav{
+	width: 203px;
+	height: 117px;
+	border: 1px solid #ccc;
+	float: left;
+}
+#a-content-form .container .nav div{
+	font-size: 20px;
+}
+#a-content-form .container .nav .about-me{
+	
+	width: 170px;
+	height: 58px;
+	line-height: 58px;
+	margin: 0 auto;
+	border-bottom: 1px solid #ff807a;
+	text-align: center;
+}
+#a-content-form .container .nav .selected a{
+	color:#ff807a;
+}
+#a-content-form .container .nav .add-service{
+	width: 170px;
+	height: 58px;
+	margin: 0 auto;
+	line-height: 58px;
+	text-align: center;	
+}
+#a-content-form .container .form{
+	width: 778px;
+	border: 1px solid #ccc;
+	float: right;
+	margin-bottom: 50px;
+}
+#a-content-form .container .form{
+	font-size: 20px;
+}
+#a-content-form .container .form .block{
+	margin-top: 20px;
+	margin-left: 20px;
+}
+#a-content-form .container .form .service-name{
+	margin-top: 0;
+}
+#a-content-form .container .form .block label{
+	color: #7A5C41; 
+}
+#a-content-form .container .form .block strong{
+	color: #FF807A;
+}
+#a-content-form .container .form .block input{
+	width: 362px;
+	height: 28px;
+    font-size: 18px;
+    color: #a28c78;
+    padding: 8px 10px 8px;
+	line-height: 44px;
+	margin-top: 15px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+}
+#a-content-form .container .form .block textarea{
+	padding: 10px;
+    width: 700px;
+    height: 210px;
+    margin-top: 15px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    line-height: 1.7;
+    color: #a28c78;
+}
+#a-content-form .container .form .common{
+	margin-top: 20px;
+	margin-left: 20px;
+}
+#a-content-form .container .form .common .title{
+	color: #7A5C41; 
+}
+#a-content-form .container .form .common .detail{
+	color: #a28c78;
+	margin-top: 25px;
+}
+#a-content-form .container .form .link-block .address{
+	border: 1px solid #ccc;
+	width: 724px;
+	height: 161px;
+	border-radius: 4px; 
+	margin-top: 20px;
+}
+#a-content-form .container .form .link-block .address input{
+	width: 273px;
+	height: 40px;
+	border: none;
+	border-bottom: 1px solid #ccc;
+	font-size: 18px;
+    color: #a28c78;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 23px;
+}
+#a-content-form .container .form .link-block .address span{
+	color: #a28c78;
+}
+#a-content-form .container .form .link-block .address input:focus{
+	 outline: none;
+} 
+#a-content-form .container .form .upload{
+	padding-bottom: 20px;
+}
+#a-content-form .container .form .upload .upload-file{
+	display: block;
+	width: 87px;
+	height: 64px;
+	background: #F1F1F1;
+	border-radius: 4px;
+	border: 1px solid #ccc;
+	position: relative;
+	margin-top: 24px;
+}
+#a-content-form .container .form .upload .upload-file input{
+	opacity: 0;
+}
+#a-content-form .container .form .upload .upload-file p{
+	text-align: center;
+	margin-top: 8px;
+	font-size: 35px;
+	color: #ccc;
+}
+#a-content-form .container .form .upload .upload-file input{
+	width: 87px;
+	height: 64px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 9;
+	cursor: pointer;
+}
+#a-content-form .container .form .option .checkboxs span{
+	color: #A18C78;
+	font-size: 18px;
+	margin-right: 19px;
+}
+#a-content-form .container .form input[type="checkbox"]{
+	width: 16px;
+	height: 16px;
+	outline: none;
+    border: 1px solid #ccc;
+}
+#a-content-form .container .form .block p{
+	margin-top: 15px;
+	color: #A18C78;
+}
+#a-content-form .container .form .add-and-time-and-price textarea{
+	height: 79px;
+}
+#a-content-form .container .form .last{
+	margin-bottom: 70px;
+}
+#a-content-form .container .form .service-view{
+	color: #FF948F;
+	width: 700px;
+	margin: 0 auto;
+}
+#a-content-form .container .form .service-view h3{
+	font-size: 25px;
+	font-weight: 500;
+	text-align: center;
+	margin-bottom: 30px;
+}
+#a-content-form .container .form .service-view .list{
+	margin-bottom: 25px;
+}
+#a-content-form .container .form .service-view .list h5{
+	font-size: 20px;
+	font-weight: 500;
+}
+#a-content-form .container .form .service-view .list p{
+	color: #A18C78;
+}
+/**
+ * ***********content-form结束************
+ */
